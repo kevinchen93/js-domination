@@ -1,21 +1,31 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <title>Domination</title>
+
     <meta charset="utf-8">
-    <script type="text/javascript" src="./lib/js_domination.js" charset="utf-8"></script>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" charset="utf-8"></script>
     <meta name="viewport" content="width=device-width">
-    <title>JS Domination</title>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="shortcut icon" type="image/png" href="assets/images/js-dom.ico"/>
+
+    <script type="text/javascript" src="lib/js_domination.js"></script>
+    <script type="text/javascript" src="lib/script.js"></script>
+
   </head>
 
   <body>
-    Search for an image!
-    <form id="form" action="index.html" method="post">
-      <input type="search" name="" value="">
-      <button type="submit">Click me!</button>
-    </form>
-    <script>
-    </script>
+    <div>
+      <div class="main-content">
+        <h1>TV Show Search</h1>
+        <input class="search-input" type="text" value="" onkeydown="searchInput(event)"/>
+        <!-- <button class="search-button" type="submit">Click me!</button> -->
+        <div class="results-container">
+        </div>
+
+    </div>
+    </div>
 
   </body>
 </html>
