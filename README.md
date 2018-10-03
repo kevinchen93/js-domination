@@ -9,13 +9,13 @@ Much like its inspiration, the jQuery library, js-domination allows users to typ
 
 js-domination houses DOMNodeCollection methods to query for, modify, and manipulate Document Object Model (DOM) elements, including:
 
-* #addClass
-* #removeClass
-* #empty
-* #append
-* #parent
-* #children
-* #on
-* #off
-* ##ajax
-* ##extend
+* `#addClass`
+* `#removeClass`
+* `#empty`
+* `#append`
+* `#parent`
+* `#children`
+* `#on`
+* `#off`
+* `##ajax`
+* `##extend`
