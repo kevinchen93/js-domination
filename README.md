@@ -1,5 +1,7 @@
 # js-domination
 
+[Live!](https://kevinnn.co/js-domination/)
+
 ## API
 
 js-domination is a simple JavaScript library that provides convenient methods to interact with APIs.
