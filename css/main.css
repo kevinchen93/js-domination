@@ -1,9 +1,11 @@
-# {
+* {
   box-sizing: border-box;
+  transition: 0.3s ease-in-out;
 }
 
 body {
   background-color: #6dc353;
+  font-family: 'Raleway', sans-serif;
   margin: 0 auto;
   padding: 50px 0;
 }
@@ -16,23 +18,46 @@ a:hover {
   text-decoration: underline;
 }
 
+h1 {
+  margin-bottom: 10px;
+}
+
+button {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  background: #fff;
+  border: 2px solid #234099;
+  border-radius: 20px;
+  padding: 7px;
+}
+
+button:hover {
+  border: 2px solid #0ea5dd;
+  cursor: pointer;
+}
+
+button:active {
+  outline: none;
+}
+
 .main-content {
   width: 100%;
   max-width: 1000px;
   margin: 0 auto;
   padding: 0 40px;
-
   text-align: center;
-
-  font-family: Arial;
   color: white;
 }
 
-.search-input {
-  display: block;
+.inputs-and-buttons-container {
+  margin-bottom: 17px;
+}
+
+.search-input,
+.search-yes-or-no-input {
   width: 100%;
   max-width: 375px;
-  margin: 0 auto 50px;
+  margin: 0 auto 12px;
   padding: 4px 15px;
   font-size: 22px;
   border: 2px solid #234099;
@@ -42,7 +67,8 @@ a:hover {
   border-bottom-right-radius: 20px;
 }
 
-.search-input:focus {
+.search-input:focus,
+.search-yes-or-no-input:focus {
   border: 2px solid #0ea5dd;
   outline: none;
 }
@@ -55,9 +81,8 @@ a:hover {
   margin: 0 auto;
 }
 
-.results-container p {
-  text-align: left;
-  padding: 0 15px;
+#advice-h1 {
+  display: inline-block;
 }
 
 .tv-show-image {
