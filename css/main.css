@@ -26,7 +26,6 @@ a:hover {
 
   font-family: Arial;
   color: white;
-  /* color: #0ea5dd; */
 }
 
 .search-input {
@@ -34,15 +33,13 @@ a:hover {
   width: 100%;
   max-width: 375px;
   margin: 0 auto 50px;
+  padding: 4px 15px;
   font-size: 22px;
-  padding-left: 7px;
-
   border: 2px solid #234099;
-  border-top-left-radius: 15px;
-  border-bottom-left-radius: 15px;
-
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 .search-input:focus {
