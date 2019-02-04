@@ -7,11 +7,24 @@ body {
   background-color: #6dc353;
   font-family: 'Raleway', sans-serif;
   margin: 0 auto;
-  padding: 150px 0;
+  padding: 50px 0;
+
+  /* position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+}
+
+li {
+  list-style-type: none;
 }
 
 a {
   text-decoration: none;
+}
+
+a:visited {
+  color: #00e;
 }
 
 a:hover {
@@ -28,7 +41,7 @@ button {
   background: #fff;
   border: 2px solid #234099;
   border-radius: 20px;
-  padding: 7px;
+  /* padding: 7px; */
 }
 
 button:hover {
@@ -41,6 +54,7 @@ button:active {
 }
 
 .main-content {
+  min-height: 50px;
   width: 100%;
   max-width: 1000px;
   margin: 0 auto;
@@ -50,7 +64,12 @@ button:active {
 }
 
 .inputs-and-buttons-container {
+  margin-top: 60px;
   margin-bottom: 17px;
+}
+
+.inputs-and-buttons-container h1 {
+  display: block;
 }
 
 .search-input,
@@ -79,12 +98,19 @@ button:active {
   color: #234099;
   background: white;
   margin: 0 auto;
+  padding: 30px;
 }
 
 #advice-h1 {
-  display: inline-block;
+  display: block;
 }
 
 .tv-show-image {
   display: block;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 27px;
 }

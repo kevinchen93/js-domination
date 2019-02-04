@@ -19,20 +19,44 @@
   <body>
     <div>
       <div class="main-content">
+        <h1>Enter in any of the inputs to return results</h1>
         <div class="inputs-and-buttons-container">
-          <h1>TV Show Search</h1>
+          <h1>Search for a TV Show</h1>
           <input class="search-input" type="text" value="" placeholder="e.g. The Good Place..." onkeydown="searchShows(event)"/>
+          <button class="search-yes-or-no-button" type="text" onClick="searchShows(event)"/>Go</button>
 
           <h1>On the fence about something?</h1>
           <input class="search-yes-or-no-input" type="text" value="" placeholder="e.g. Are you ready?" />
-          <button class="search-yes-or-no-button" type="text" onClick="searchYesOrNo(event)"/>Decide for me!</button>
+          <button class="search-yes-or-no-button" type="text" onClick="searchYesOrNo(event)"/>Go</button>
 
-          <h1 id="advice-h1">Do you need some advice?</h1>
-          <button class="search-advice-button" type="text" onClick="searchAdvice()"/>Yes!</button>
+          <h1 id="advice-h1">Need advice?</h1>
+          <button class="search-advice-button" type="text" onClick="searchAdvice()"/>Go</button>
         </div>
 
         <div class="results-container">
         </div>
+
+        <ul class="social-links">
+          <li>
+            <i className="fab fa-github"></i>
+            <a className="footer-link" href="https://github.com/kevinchen93" target="_blank">
+              GitHub
+            </a>
+          </li>
+          <li>
+            <i className="fab fa-linkedin"></i>
+            <a className="footer-link" href="https://www.linkedin.com/in/kaychen93/" target="_blank">
+              LinkedIn
+            </a>
+          </li>
+          <li>
+            <i className="fab fa-angellist"></i>
+            <a className="footer-link" href="https://angel.co/kevin-chen-91" target="_blank">
+              AngelList
+            </a>
+          </li>
+
+        </ul>
 
       </div>
 
