@@ -72,7 +72,7 @@ button:active {
   display: block;
 }
 
-.search-input,
+.search-tv-input,
 .search-yes-or-no-input {
   width: 100%;
   max-width: 375px;
@@ -86,7 +86,7 @@ button:active {
   border-bottom-right-radius: 20px;
 }
 
-.search-input:focus,
+.search-tv-input:focus,
 .search-yes-or-no-input:focus {
   border: 2px solid #0ea5dd;
   outline: none;
